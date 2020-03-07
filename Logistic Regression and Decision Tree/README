@@ -1,0 +1,65 @@
+-> Created DataSets Has been named as "datasetA.csv" and "datasetB.csv".
+-> While doing Decision Tree part(part3), quotations have been removed from the header row in "datasetB.csv".
+-> Jupyter Notebook is used and "NOTEBOOK.html" is attached for better and easy understanding of all parts.
+-> In all the codes, proper path to datsets should be used while reading from csv file like
+   "C:\\ML\\17CS10054_ML_A2\\data\\datasetB.csv"
+-> Various Evaluation metrics of models are as follows:
+
+1)
+	Part2C:
+		
+		In 3 fold cross validation:
+			
+			Case(a):
+			"Custom(implemented) Logistic Regression"
+			
+			Average Test Accuracy is 
+			85.30331457160726
+
+			Average Test Precision is
+			45.06350145025485
+
+			Average Test Recall is
+			28.475892772567963
+			
+			Case(b):
+			"Scikit Learn Logistic Regression"
+			
+			Average Test Accuracy is 
+			86.61663539712322
+
+			Average Test Precision is
+			60.51587301587301
+
+			Average Test Recall is
+			11.554689508653702
+	
+	Part3C:
+		
+		In  3 fold cross validation:
+		
+		Case(a):
+		"Custom(implemented) Decision Tree"
+		
+		Average Test Accuracy is  
+		77.54846779237023
+		
+		Average Test Macro Precision is  
+		45.84784440069245
+		
+		Average Test Macro Recall is  
+		42.552771366674015
+		
+		Case(b):
+		"Scikit Learn Decision Tree"
+		
+		Average Test Accuracy is  
+		79.98603881938897
+		
+		Average Test Macro Precision is  
+		50.983746175147104
+		
+		Average Test Macro Recall is  
+		43.91453625669517
+		
+		".......Please refer attached NOTEBOOK.html for better understanding....."
