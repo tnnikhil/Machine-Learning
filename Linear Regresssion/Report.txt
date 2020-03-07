@@ -1,0 +1,33 @@
+1a)
+	Graphs are plotted with the help of matplotlib library
+	
+1b)
+	Gradient Descent as taught has been applied for each case(order from 1 to 9)
+	While Calculating parameters, convergence on cost has been used
+	The gradient Descent stops as soon as Successive costs difference drops below 0.0000001
+	
+2a)
+	Training Error and Test Error has been recorded as above and plotted for various order's using matplotlib library
+
+2b)
+	From the graphs drawn above,
+		it is evident that for n=4(order=4), both training and test error attains minima.
+	So, the plot obtained from gradient descent considering 4th order polynomial fits the given data more.
+	So, n=4 is suitable.
+	(Although the error between n=4 and n=9 is pretty small,refer attached JUPYTER NOTEBOOK).
+	
+3)
+	Lasso Regression => cost function changes and partial derivative also changes in gradient descent 
+	Accordingly,Calaculation has been changed in code written above.
+	Similarly,For Ridge Regression corresponding changes have been made and errors are updated.
+	All the graphs have been drawn as per the statement.
+	Now,
+		Lasso Regression fits well than Ridge Regression for given data points.
+		It can be seen that Error for both Training set and Testing set are low for the case of Lasso Regression than Ridge Regression.
+		
+	Lasso and Ridge, both are used to lower the values of parameters but Lasso indeed can make the parameters to zero if they aren't relevant.
+	It can be easily observed that given data is from a sine curve.
+	We know that,
+		sinx is equivalent to  infinite sum of "ODD EXPONENTs" of x (with some co-efficients). 
+	
+	So,Lasso Considers the fact that parameters of even power x's are irrevelant.So, Lasso is better in the given problem than Regularization.
